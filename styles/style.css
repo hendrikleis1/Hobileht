@@ -60,8 +60,37 @@
 #ajalugu{
     text-align: center;
 }
+#ajajoon{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.sünd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.sünd-sisu{
+    width: 50%;
+    text-align: left;
+}
 
-
+.aasta{
+    color: white;
+    background-color: #0d3b66;
+    border-radius: 35px;
+    padding: 0px 25px;
+}
+.sünd-konteiner{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.sünd-konteiner img{
+    object-fit: cover;
+}
 
 
 footer {
