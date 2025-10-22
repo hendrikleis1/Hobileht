@@ -1,0 +1,21 @@
+#hero{
+    width: 100%;
+    height: 100rem;
+}
+.hero-pilt {
+    background-image: url("../images/hero_pilt.jpg");
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-sisu{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(156, 167, 182);
+}
