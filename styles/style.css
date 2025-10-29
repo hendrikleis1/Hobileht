@@ -1,3 +1,9 @@
+body{
+    align-content: center;
+    max-width: 100%;
+}
+
+
 /*hero sektsiooni stiilid*/
 
 #hero{
@@ -57,19 +63,26 @@
 
 /*ajaloo sektsiooni stiilid*/
 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
 #ajalugu{
     text-align: center;
 }
 #ajajoon{
     margin-top: 4rem;
     margin-bottom: 4rem;
+    text-align: center;
 }
 .sünd{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 1fr;
     justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 4rem;
 }
 .sünd-sisu{
     width: 50%;
@@ -83,13 +96,57 @@
     padding: 0px 25px;
 }
 .sünd-konteiner{
-    display : flex;
-    align-items: center;
+    display : grid;
+    align-items: left;
     justify-content: center;
-    flex-direction: row;
+    grid-template-columns: 1fr 2fr;
 }
 .sünd-konteiner img{
     object-fit: cover;
+}
+
+/*tänase päeva sektsiooni stiilid*/
+#tänane-päev{
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 60%;
+    margin-left: 20%;
+}
+#tänane-päev img{
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.reeglid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.reeglid div{
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px ;
+    border-radius: 15px;
+    background-color: #eef1f4;
+}
+#vormid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+#vormid div{
+    border-radius: 15px;
+    background-color: #eef1f4;
+}
+#kuidas-alustada{
+    background-color: #f4e7d3;
+    text-align: center;
+    width: 100%;
+}
+.alustamine{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    text-align: center;
 }
 
 
